@@ -1,0 +1,3 @@
+https://github.com/casesandberg/react-color/
+
+http://casesandberg.github.io/react-color/

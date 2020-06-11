@@ -13,13 +13,13 @@ import CreditCards from './Component/CreditCards/CreditCards'
 function App() {
   return (
     <div className="App">
-     	// <Icons />
+     	<Icons />
 		<ToastNo />
 		<Modal />
 		<Tooltip />
 		<CountUp />
 		<IdleTimer />
-		// <ColorPicker />
+		<ColorPicker />
 		<CreditCards />
     </div>
   );
