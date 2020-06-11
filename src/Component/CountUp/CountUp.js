@@ -1,5 +1,5 @@
 import React from 'react';
-// import CountUp,{ useCountUp } from 'react-countup';
+import CountUp,{ useCountUp } from 'react-countup';
 
 function Coutte(){
 	const {countUp,start,pauseResume,reset,update } = useCountUp({duration:5,end:10000,startOnMount:false})
