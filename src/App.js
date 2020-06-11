@@ -9,6 +9,9 @@ import CountUp from './Component/CountUp/CountUp';
 import IdleTimer from './Component/IdleTimer/IdleTimer';
 import ColorPicker from './Component/ColorPicker/ColorPicker'
 import CreditCards from './Component/CreditCards/CreditCards'
+import DatePick from './Component/DatePicker/DatePicker'
+import VideoPlay from './Component/VideoPlay/VideoPlayer';
+import Load from './Component/Loading/Loading';
 
 function App() {
   return (
@@ -18,9 +21,12 @@ function App() {
 		<Modal />
 		<Tooltip />
 		<CountUp />
-		<IdleTimer />
+		{/*<IdleTimer />*/}
 		<ColorPicker />
 		<CreditCards />
+		<DatePick />
+		<VideoPlay />
+		<Load />
     </div>
   );
 }
