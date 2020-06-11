@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Icons from './Component/Icons/icons';
+import ToastNo from './Component/ToastNo/ToastNo';
+import Modal from './Component/Modal/Modal';
+import Tooltip from './Component/Tooltip/Tooltip';
+import CountUp from './Component/CountUp/CountUp';
+import IdleTimer from './Component/IdleTimer/IdleTimer';
+import ColorPicker from './Component/ColorPicker/ColorPicker'
+import CreditCards from './Component/CreditCards/CreditCards'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     	// <Icons />
+		<ToastNo />
+		<Modal />
+		<Tooltip />
+		<CountUp />
+		<IdleTimer />
+		// <ColorPicker />
+		<CreditCards />
     </div>
   );
 }
